@@ -53,7 +53,7 @@ namespace AppLovinSdkSample.Droid
 
         private void CheckSdkKey()
         {
-            var currentSdkKey = "YOUR_SDK_KEY";
+            var currentSdkKey = "Il9J5bS0OWMgQB30W_c5LJcz6H-VdU3mGsVm4Vdgy_gHN8zFnIRI7FNPzRFFh4dbJC-s84eC6l25ObDLBdXDwT";
             var sdkKey = AppLovinSdk.GetInstance(ApplicationContext).SdkKey;
 
             if (!currentSdkKey.Equals(sdkKey))

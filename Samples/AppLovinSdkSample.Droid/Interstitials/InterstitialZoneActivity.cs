@@ -47,7 +47,7 @@ namespace AppLovinSdkSample.Droid.Interstitials
             Log("Interstitial loading...");
             showButton.Enabled = false;
 
-            AppLovinSdk.GetInstance(ApplicationContext).AdService.LoadNextAdForZoneId("YOUR_ZONE_ID", this);
+            AppLovinSdk.GetInstance(ApplicationContext).AdService.LoadNextAdForZoneId("1246cb5711c664fc", this);
         }
 
         public void AdReceived(IAppLovinAd ad)
